@@ -47,3 +47,5 @@ for series in df.iterrows():
     TotalGoals = series[1].Total.Goals
 
     csv_writer.writerow([Club, Season, Division, LeagueApps, LeagueGoals, OtherApps, OtherGoals, TotalApps, TotalGoals])
+    
+csv_file.close()
